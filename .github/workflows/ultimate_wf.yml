@@ -1,0 +1,15 @@
+name: Security
+
+on:
+  pull_request:
+  push:
+    branches: ["main"]
+
+jobs:
+  security:
+    uses: full_scan/.github/workflows/full-security-suite.yml@v1
+    with:
+      run_iac: true
+      run_secrets: true
+      run_sast: false
+      run_containers: true
