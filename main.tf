@@ -12,7 +12,7 @@ resource "aws_subnet" "example" {
   availability_zone = "us-east-2a"
 
   tags = {
-    Name = "tf-example"
+    Name = "tf--example"
   }
 }
 
