@@ -12,4 +12,4 @@ jobs:
       run_iac: true
       run_secrets: false
       run_sast: false
-      run_containers: false
+      run_containers: true
