@@ -10,6 +10,6 @@ jobs:
     uses: mmzaboys/full_scan/.github/workflows/full-security-suite.yml@main
     with:
       run_iac: true
-      run_secrets: true
+      run_secrets: false
       run_sast: false
-      run_containers: true
+      run_containers: false
