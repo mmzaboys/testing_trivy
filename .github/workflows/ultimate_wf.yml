@@ -7,7 +7,7 @@ on:
 
 jobs:
   security:
-    uses: mmzaboys/full_scan/.github/workflows/full-security-suite.yml@v1
+    uses: mmzaboys/full_scan/.github/workflows/full-security-suite.yml@main
     with:
       run_iac: true
       run_secrets: true
